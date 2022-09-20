@@ -1,0 +1,140 @@
+.logo-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+.logo-intro {
+  font-size: 13px;
+  text-align: left !important;
+  margin-left: 28px;
+}
+
+.header-dates {
+  width: 100%;
+  margin-left: 11.3%;
+}
+
+.dates-text {
+  font-size: 24px;
+}
+
+.color-text {
+  color: $color-text;
+}
+  .imgmaster {
+    display: none;
+  }
+// ===================== Column ===============
+
+.left-col {
+  width: 58%;
+  height: 610px;
+}
+
+.left-col__intro {
+  font-size: 29px;
+  margin-bottom: 32px;
+  display: block;
+}
+.left-col__theme {
+  font-size: 81px;
+  font-family: "Museo Sans-700", sans-serif;
+  color: black !important;
+  line-height: 80px;
+  white-space: pre-line;
+  margin-bottom: 32px;
+  font-weight: 700;
+}
+
+// =============== Таймер================================
+
+
+// ====================================================
+.advert {
+  display: flex;
+  margin-top: 28px;
+  border: 1px solid #ccc;
+  padding: 17px;
+  margin-right: 40px;
+}
+.advert__image {
+  margin-right: 18px;
+}
+
+.adtext {
+  text-align: left;
+  font-size: 18px;
+  white-space: pre-line;
+}
+.color-text__advert {
+  color: #43464b;
+  font-weight: 700;
+}
+
+// ================= column right ===========================
+
+.right-col {
+  width: 42%;
+}
+.theme-flex {
+  display: flex;
+  justify-content: center;
+}
+.right-col__wrapper {
+  border: 5px solid #f16334;
+  border-radius: 8px;
+  box-shadow: 0 0 2rem rgb(241 99 52 / 25%);
+  padding: 54px;
+}
+.right-col__theme {
+  font-size: 24px;
+  color: rgb(0, 0, 0);
+}
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+.form {
+  outline: 0;
+  border: 1px solid #999;
+  font-weight: 100;
+  width: 100%;
+  display: block;
+  width: 90%;
+  height: calc(2.2em + 0.5rem + 3px);
+  padding: 0.375rem 0.975rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border-radius: 0.25rem;
+  font-size: 21px;
+  width: 100%;
+}
+.label {
+  color: $color-label;
+}
+.sms-text {
+  display: block;
+  font-size: 14px;
+  color: $color-label;
+  margin-bottom: 12px;
+  margin-top: 10px;
+}
+.submit {
+  background-color: #ee543a;
+  color: white;
+  padding: 1.3rem 3.3rem;
+  border-radius: 5.2rem;
+  border: none;
+  font-size: 23px;
+  margin-bottom: 12px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.bonus {
+  display: flex;
+  border: 1px solid #ccc;
+  padding: 13px;
+}

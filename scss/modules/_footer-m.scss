@@ -1,0 +1,41 @@
+.footer-sp {
+  width: 18%;
+  margin-left: 40px;
+}
+.footer-ph {
+  margin-right: 73px;
+}
+.as13 {
+  color: white;
+ 
+}
+.asize {
+  font-size: 14px;
+}
+.ksize{
+    margin-left: 10px;
+    font-size: 20px;
+}
+.lsize {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.nav-footer {
+  display: flex;
+  text-decoration: none;
+  list-style-type: none;
+  margin: 0 auto;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.nav-footer__link {
+  color: white;
+  transition: 0.4s cubic-bezier(0.65, 0.65, 0.07, 1);
+}
+
+.nav-footer__link:hover {
+  text-decoration: none;
+  color: #0056b3;
+}

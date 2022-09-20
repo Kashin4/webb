@@ -1,0 +1,15 @@
+.footer__container-up {
+  background-color: #262626;
+  height: 122px;
+}
+.footer__container-down {
+  background-color: #000000;
+  height: 59px;
+}
+.footer-wrapper {
+  display: flex;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 17px 10px;
+  justify-content: space-between;
+}

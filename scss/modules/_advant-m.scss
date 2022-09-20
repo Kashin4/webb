@@ -1,0 +1,31 @@
+.advant-wrapper {
+  display: flex;
+}
+
+.advant-theme {
+  width: 47%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.advant-top {
+  border: 2px solid #f16334;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 2rem rgb(241 99 52 / 25%);
+  margin: 0px 15px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.advant-top div img {
+  max-height: 100px;
+}
+.advent-item__centr {
+  text-align: center;
+  margin-top: auto;
+}
+
+.ah3 {
+  font-size: 20px;
+}

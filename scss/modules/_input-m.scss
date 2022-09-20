@@ -1,0 +1,24 @@
+
+.upbtn {
+  opacity: 0.8;
+  z-index: 9999;
+  width: 70px;
+  height: 70px;
+  position: fixed;
+  right: -80px;
+  bottom: 20px;
+  cursor: pointer;
+  transition: all 0.7s ease-in-out;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: #2185ff;
+  border-radius: 50%;
+  background-image: url(/assets/icons/upup.png);
+  background-size: 50px;
+}
+
+.upbtn:hover {
+  opacity: 1;
+  background-color: #2185ff;
+}
+

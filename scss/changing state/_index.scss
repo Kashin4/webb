@@ -1,0 +1,645 @@
+@media (max-width: 1410px) {
+  .row-wrapper {
+    max-width: 1140px;
+    padding-top: 30px;
+  }
+  .advant-theme {
+    width: 40%;
+    font-size: 27px;
+  }
+  .imgmaster {
+    display: none;
+  }
+  .left-col {
+    width: 58%;
+    height: 674px;
+  }
+  .left-col__theme {
+    font-size: 69px;
+  }
+  .right-col {
+    width: 40%;
+  }
+  .right-col__master {
+    background-image: url(../assets/image/pavel-super2.png);
+    width: 487px;
+    left: 52%;
+    top: 10%;
+  }
+  .submit {
+    padding: 1.3rem 1.3rem;
+  }
+  .advant-container {
+    max-width: 1170px;
+  }
+  .free-container {
+    max-width: 1230px;
+  }
+  .master-container {
+    max-width: 1175px;
+  }
+  .trening-container {
+    max-width: 1130px;
+  }
+  .trening-text {
+    margin-right: 5%;
+  }
+
+  .master-wrapper {
+    padding: 60px 129px;
+  }
+
+  // =============
+  .timer {
+    height: 136px;
+    padding: 10px;
+  }
+  .tisp {
+    top: 100px;
+    left: 8px;
+  }
+  .first-number,
+  .second-number,
+  .third-number,
+  .four-number {
+    font-size: 40px;
+  }
+
+  // ============
+  .footer-ph {
+    margin-right: 0px;
+  }
+
+  .footer-wrapper {
+    max-width: 1170px;
+    font-size: 14px;
+  }
+}
+//  !============================================================
+@media (max-width: 1210px) {
+  .row-wrapper {
+    max-width: 982px;
+  }
+
+  .left-col {
+    height: 670px;
+    width: 53%;
+  }
+
+  .left-col__theme {
+    font-size: 37px;
+    line-height: 41px;
+    white-space: inherit;
+    margin-bottom: 90px;
+  }
+
+  .advert {
+    margin-top: 130px;
+  }
+  .adtext {
+    text-align: left;
+    font-size: 17px;
+    white-space: inherit;
+  }
+
+  .right-col {
+    width: 44%;
+  }
+  .right-col__wrapper {
+    padding: 33px;
+  }
+  .right-col__theme {
+    font-size: 23px;
+  }
+
+  .time {
+    padding-top: 11px;
+  }
+  .timer {
+    height: 144px;
+    padding: 10px;
+    width: 92%;
+  }
+  .tisp {
+    top: 115px;
+    left: 93px;
+  }
+  .first-number,
+  .second-number,
+  .third-number,
+  .four-number {
+    font-size: 48px;
+  }
+
+  .trening-container {
+    max-width: 982px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+
+  .trening-text {
+    width: 54%;
+  }
+
+  .advant-container {
+    max-width: 982px;
+  }
+
+  .advant-theme {
+    width: 71%;
+    font-size: 32px;
+    font-weight: 700;
+  }
+
+  .free-container {
+    max-width: 982px;
+  }
+
+  .free-container {
+    padding: 35px 16px;
+  }
+  .free-img {
+    width: 94%;
+  }
+}
+// !==================================================================
+@media (max-width: 991px) {
+  .logo-wrapper {
+    width: 29%;
+  }
+  .logo-intro {
+    margin-left: 35px;
+  }
+  .header-dates {
+    margin-left: 6.3%;
+  }
+  .row-wrapper {
+    max-width: 709px;
+    padding-top: 19px;
+  }
+  .imgmaster {
+    display: none;
+  }
+  .mnf .row-flex {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .left-col {
+    width: 100%;
+    height: 433px;
+  }
+  .left-col__intro {
+    font-size: 25px;
+    width: 297px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .left-col__theme {
+    font-size: 40px;
+    line-height: 43px;
+    white-space: inherit;
+    margin-bottom: 17px;
+    margin-left: 68px;
+    text-align: center;
+    width: 556px;
+  }
+
+  .timer {
+    height: 144px;
+    width: 83%;
+    margin: 0 auto;
+  }
+  .time {
+    padding-top: 0px;
+  }
+  .tisp {
+    top: 98px;
+    left: 109px;
+  }
+  .tisp span {
+    padding: 57px;
+  }
+  .first-number,
+  .second-number,
+  .third-number,
+  .four-number {
+    font-size: 32px;
+    padding: 0px 23px 0px 23px;
+  }
+  .f13 {
+    font-size: 17px;
+    font-weight: 400;
+  }
+  .advert {
+    margin: 0 auto;
+    margin-top: 16px;
+  }
+  .adtext {
+    text-align: left;
+    font-size: 19px;
+    white-space: inherit;
+    line-height: 1.3;
+    font-family: "Museo Sans", sans-serif;
+  }
+  .color-text__advert {
+    color: #43464b;
+    font-weight: 700;
+  }
+
+  .right-col {
+    width: 100%;
+  }
+  .form {
+    width: 96%;
+    margin: 0 auto;
+  }
+  label {
+    width: 96%;
+    margin: 0 auto;
+  }
+  .mnf .right-col__wrapper {
+    padding: 59px 33px;
+  }
+  .trening-container {
+    flex-direction: column;
+    max-width: 674px;
+  }
+  .trening-text {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .trening-theme {
+    color: rgba(50, 52, 56, 0.831);
+    font-size: 35px;
+    font-weight: 700;
+    margin: 0;
+  }
+  .advant-container {
+    max-width: 726px;
+    padding: 23px 4px;
+  }
+  .advant-theme {
+    width: 88%;
+    font-size: 34px;
+    margin-bottom: 19px;
+    text-align: center;
+  }
+  .advant-top {
+    padding: 15px;
+  }
+  .advant-top p {
+    margin-bottom: 50px;
+  }
+
+  .lf {
+    display: none;
+  }
+
+  .free-container {
+    max-width: 717px;
+    padding: 49px 16px;
+  }
+
+  .free-container .right-col__wrapper {
+    padding: 36px 50px;
+  }
+  .submit {
+    padding: 1.1rem 1.3rem;
+  }
+  .master-container {
+    max-width: 715px;
+  }
+
+  .who-master {
+    width: 54%;
+    margin-bottom: 17px;
+    font-weight: 700;
+    color: #434141;
+  }
+  .master-wrapper {
+    padding: 31px 13px;
+  }
+  .head-name {
+    margin-bottom: 14px;
+  }
+  .dvc {
+    margin-bottom: 21px;
+    font-size: 23px;
+  }
+  .right-col__master {
+    background-image: url(../assets/image/pavel-super3.png);
+    width: 298px;
+    left: 57%;
+    top: 35%;
+  }
+  .icon {
+    width: 18px;
+    height: 18px;
+    fill: rgba(0, 0, 0, 0.7215686275);
+  }
+  .footer-wrapper {
+    max-width: 722px;
+    font-size: 14px;
+  }
+  .footer__container-up {
+    background-color: #262626;
+    height: 185px;
+  }
+  .footer-wrapper {
+    flex-direction: row;
+    align-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .footer-sp {
+    width: 53%;
+    margin-left: 12px;
+    padding-top: 12px;
+  }
+  .mnimg {
+    order: -1;
+    width: 50%;
+    text-align: center;
+    margin-left: 180px;
+    margin-bottom: 14px;
+  }
+  .footer-ph {
+    width: 37%;
+    order: 0;
+    display: flex;
+    flex-direction: column-reverse;
+    line-height: 22px;
+  }
+  .ksize {
+    margin-left: 46px;
+    font-size: 16px;
+  }
+  .footer__container-down {
+    background-color: #000000;
+    height: 78px;
+  }
+  .nav-footer {
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .nav-list {
+    font-size: 13px;
+  }
+  .lml {
+    margin-left: 27%;
+  }
+  .lmr {
+    margin-right: 24%;
+  }
+
+  .upbtn {
+    width: 60px;
+    height: 60px;
+  }
+  .popup {
+    display: none;
+  }
+  #parent_popup {
+    background-color: rgb(0 0 0 / 0%);
+  }
+}
+//  !===============================================================
+@media (max-width: 767px) {
+  .header {
+    background-position: center;
+  }
+  .popup {
+    display: none;
+  }
+  #parent_popup {
+    background-color: rgb(0 0 0 / 0%);
+  }
+  .header-container {
+    padding-left: 14px;
+  }
+  .row-wrapper {
+    max-width: 538px;
+    padding-top: 18px;
+  }
+
+  .imgmaster {
+    margin-top: 20px;
+    display: block;
+  }
+  .logoimg {
+    width: 145px;
+  }
+  .logo-intro {
+    display: none;
+  }
+  .dates-text {
+    font-size: 16px;
+  }
+  .left-col {
+    height: 217px;
+  }
+  .left-col__intro {
+    color: #3c3c3c;
+  }
+  .left-col__theme {
+    width: 404px;
+  }
+  .timer {
+    display: none;
+  }
+  .advert {
+    display: none;
+  }
+  .mnf .right-col__wrapper {
+    padding: 26px 24px;
+  }
+  .form {
+    width: 100%;
+  }
+  .submit {
+    width: 97%;
+    margin-left: 9px;
+  }
+  .trening-container {
+    max-width: 555px;
+  }
+  .trening-theme {
+    color: rgba(50, 52, 56, 0.831);
+    font-size: 32px;
+    font-weight: 600;
+  }
+  .trening-pg {
+    color: rgb(40 41 43 / 83%);
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1.2;
+  }
+  .trening-list {
+    font-size: 19px;
+  }
+  .color-text__2 {
+    font-weight: 700;
+  }
+  .advant-container {
+    max-width: 575px;
+  }
+  .advant-theme {
+    width: 75%;
+    font-size: 31px;
+  }
+  .advant-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 984px;
+    width: 538px;
+  }
+  .advant-top {
+    padding: 15px;
+    width: 224px;
+    height: 477px;
+  }
+  .at3 {
+    margin-top: 17px;
+  }
+
+  .free-container {
+    max-width: 537px;
+  }
+  .free-container .right-col__wrapper {
+    padding: 36px 33px;
+  }
+  .sms-text {
+    font-size: 13px;
+    text-align: center;
+  }
+
+  .free-container .form {
+    width: 94%;
+  }
+  .free-container .label {
+    width: 94%;
+  }
+  .master-container {
+    max-width: 535px;
+  }
+  .who-master {
+    font-weight: 600;
+    width: 70%;
+  }
+
+  .master-wrapper {
+    padding: 23px 27px;
+    height: 908px;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    position: relative;
+  }
+  .right-col__master {
+    background-image: url(../assets/image/pavel-super3.1.png);
+    width: 363px;
+    left: 100px;
+    top: 90px;
+  }
+  .head-name {
+    position: absolute;
+    top: 24px;
+  }
+  .footer__container-up {
+    height: 250px;
+  }
+  .footer-wrapper {
+    display: flex;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 17px 10px;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .mnimg {
+    order: 1;
+    margin: 0 auto;
+    margin-bottom: 33px;
+    width: 300px;
+    text-align: center;
+  }
+  .footer-wrapper {
+    max-width: 921px;
+    flex-direction: column-reverse;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  .footer-ph {
+    width: 300px;
+    order: 0;
+    display: flex;
+    flex-direction: column-reverse;
+    line-height: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .lsize {
+    font-size: 27px;
+    font-family: "Museo Sans", sans-serif;
+  }
+  .asize {
+    font-size: 14px;
+    text-align: center;
+  }
+  .footer__container-down {
+    height: 156px;
+  }
+  .nav-footer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .lml {
+    margin-left: 0;
+  }
+
+  .lmr {
+    margin-right: 0;
+  }
+  .nav-list {
+    margin-top: 5px;
+  }
+  .upbtn {
+    display: none;
+  }
+}
+// =================================================================
+@media (max-width: 570px) {
+  .left-col__theme {
+    width: 310px;
+    margin-left: 62px;
+  }
+  .at3 {
+    margin-top: 0;
+  }
+  .advant-wrapper {
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .advant-top {
+    width: auto;
+    height: auto;
+  }
+  .right-col__master {
+    background-image: url(../assets/image/pavel-super3.1.png);
+    background-size: cover;
+    background-position: 50%;
+    width: 230px;
+    left: 50px;
+    top: 97px;
+  }
+
+  .imgmaster img {
+    width: 339px;
+  }
+}

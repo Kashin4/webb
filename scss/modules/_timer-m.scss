@@ -1,0 +1,57 @@
+.timer {
+  border: 1px solid #f16334;
+  width: 47%;
+  height: 125px;
+  padding: 11px;
+  text-align: center;
+  font-weight: 600;
+  color: $color-text__2;
+  position: relative;
+}
+.f13 {
+  font-size: 18px;
+}
+.time {
+  position: relative;
+  z-index: 1;
+  font-weight: 100;
+  font-size: 43px;
+}
+
+.tm {
+  background: #fdfdfd;
+  border: 1px solid #e4e4e4;
+  border-radius: 0.5rem;
+  width: 48%;
+  height: 100%;
+  padding: 0px 13px 0px 15px;
+  font-size: 43px;
+  color: #f16334;
+  margin-right: 11px;
+}
+
+.first-number,
+.second-number,
+.third-number,
+.four-number {
+  background: #fdfdfd;
+  border: 1px solid #e4e4e4;
+  border-radius: 0.5rem;
+  width: 48%;
+  height: 100%;
+  padding: 0px 13px 0px 15px;
+  font-size: 34px;
+  color: #f16334;
+  margin-right: 11px;
+}
+.tisp {
+  position: absolute;
+  top: 95px;
+  left: 47px;
+}
+.tisp span {
+  font-size: 16px;
+  color: #999;
+  padding: 42px;
+  font-weight: 400;
+}

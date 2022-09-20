@@ -1,0 +1,28 @@
+$color-text: #f16334;
+$color-label: #43464bc9;
+$color-text__2: #43464bd4;;
+
+@font-face {
+  font-family: "Museo Sans";
+  src: url(/fonts/MuseoSansCyrl-300.ttf);
+}
+@font-face {
+  font-family: "Museo Sans-700";
+  src: url(/fonts/MuseoSansCyrl-700.ttf);
+}
+body {
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+  font-family: "Museo Sans",sans-serif;
+  font-weight: 300;
+  line-height: 1.5;
+  background: #fff;
+  min-height: 100vh;
+  justify-content: space-between;
+  flex-direction: column;
+  transition: opacity 0.25s linear;
+  font-size: 14px;
+  margin: 0;
+  text-shadow: 1px 1px 1px rgb(0 0 0 / 0%);
+  color: #595c61;
+}

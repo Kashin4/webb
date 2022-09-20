@@ -1,0 +1,82 @@
+.who-master {
+  width: 35%;
+  margin: 0 auto;
+  margin-bottom: 45px;
+}
+
+.master-wrapper {
+  display: flex;
+  background-color: white;
+  padding: 72px 130px;
+  position: relative;
+}
+
+.left-col__master {
+  display: flex;
+  flex-direction: column;
+}
+.head-name {
+  margin-bottom: 40px;
+}
+.master-name {
+  margin: 0;
+}
+.master-name__intro {
+  font-size: 15px;
+  color: #181717e1;
+  font-style: italic;
+}
+
+.ma-strong {
+  font-weight: 600;
+}
+.markered {
+  padding-left: 27px;
+}
+.markered li {
+  list-style: none;
+  position: relative;
+  margin-bottom: 7px;
+}
+
+.markered li:before {
+  content: "\25CB";
+  color: #f16334;
+  left: -25px;
+  position: absolute;
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  list-style-type: none;
+  padding: 0;
+}
+.social-list {
+  margin-right: 18px;
+}
+.icon {
+  width: 26px;
+  height: 26px;
+  fill: #000000b8;
+}
+.icon:hover {
+  fill: #0056b3;
+}
+.right-col__master {
+  background-image: url(../assets/image/pavel-super.png);
+  background-repeat: no-repeat;
+  width: 599px;
+  position: absolute;
+  left: 47%;
+  top: -11%;
+}
+
+.right-col__master::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 0;
+  padding-top: 114.16%;
+}
