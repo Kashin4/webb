@@ -1646,3 +1646,8 @@ template {
     font-weight: 700;
   }
 }
+@media (max-width: 460px) {
+  #parent_popup {
+    display: none;
+  }
+}
