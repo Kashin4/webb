@@ -74,7 +74,7 @@
                   </div>
                   <div class=" flex">
                     <label class="label" for="y-phone">Телефон</label>
-                    <input class="form" name="y-phone" type="text" id="phone" placeholder="Введите Ваш номер телефона">
+                    <input class="form" name="y-phone" type="text" id="phone" placeholder="(29)1234567">
                   </div>
                   <span class="sms-text">Номер телефона используется ТОЛЬКО для напоминания о вебинаре</span>
                   <button class="submit">Бесплатная регистрация</button>
@@ -175,7 +175,7 @@
                 </div>
                 <div class="row flex">
                   <label class="label" for="y-phone">Телефон</label>
-                  <input class="form" name="y-phone" type="text" id="phone" placeholder="Введите Ваш номер телефона">
+                  <input class="form" name="y-phone" type="text" id="phone2" placeholder="(29)1234567">
                 </div>
                 <span class="sms-text">Номер телефона используется ТОЛЬКО для напоминания о вебинаре</span>
                 <button class="submit">Бесплатная регистрация</button>
@@ -294,7 +294,7 @@
             </div>
             <div class=" flex">
               <label class="label" for="y-phone">Телефон</label>
-              <input class="form" name="y-phone" type="text" id="phone" placeholder="Введите Ваш номер телефона">
+              <input class="form" name="y-phone" type="text" id="phone3" placeholder="(29)1234567">
             </div>
             <span class="sms-text">Номер телефона используется ТОЛЬКО для напоминания о вебинаре</span>
             <button class="submit">Бесплатная регистрация</button>
@@ -306,17 +306,9 @@
 </div>
 
   <script src="./js/index.js"></script>
-  <script>
-    var input = document.querySelector("#phone");
-    intlTelInput(input, {
-      initialCountry: "auto",
-      geoIpLookup: function (success, failure) {
-        $.get("https://ipinfo.io", function () { }, "jsonp").always(function (resp) {
-          var countryCode = (resp && resp.country) ? resp.country : "us";
-          success(countryCode);
-        });
-      },
-    });
+  <script src="./js/inputphone.js">
+
+
   </script>
 </body>
 

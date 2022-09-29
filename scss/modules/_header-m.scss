@@ -21,9 +21,9 @@
 .color-text {
   color: $color-text;
 }
-  .imgmaster {
-    display: none;
-  }
+.imgmaster {
+  display: none;
+}
 // ===================== Column ===============
 
 .left-col {
@@ -47,7 +47,6 @@
 }
 
 // =============== Таймер================================
-
 
 // ====================================================
 .advert {
@@ -111,6 +110,13 @@
   font-size: 21px;
   width: 100%;
 }
+
+.form:focus {
+  outline: 0;
+  box-shadow: none;
+  border-color: #f16334;
+}
+
 .label {
   color: $color-label;
 }

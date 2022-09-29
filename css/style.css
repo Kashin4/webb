@@ -540,6 +540,12 @@ template {
   width: 100%;
 }
 
+.form:focus {
+  outline: 0;
+  box-shadow: none;
+  border-color: #f16334;
+}
+
 .label {
   color: rgba(67, 70, 75, 0.7882352941);
 }
@@ -591,6 +597,35 @@ template {
 .upbtn:hover {
   opacity: 1;
   background-color: #2185ff;
+}
+
+.iti--separate-dial-code .iti__selected-dial-code {
+  margin-left: 6px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.iti__country-list {
+  position: absolute;
+  z-index: 2;
+  list-style: none;
+  text-align: left;
+  padding: 0;
+  margin: 0 0 0 -1px;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid #ccc;
+  white-space: nowrap;
+  max-height: 200px;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  background-color: rgba(0, 0, 0, 0.95) !important;
+  border: 1px solid #292728 !important;
+  color: white;
+}
+
+.iti__highlight:hover {
+  background-color: rgba(103, 163, 236, 0.4745098039) !important;
 }
 
 .trening-theme {
@@ -728,6 +763,7 @@ template {
   width: 26px;
   height: 26px;
   fill: rgba(0, 0, 0, 0.7215686275);
+  cursor: pointer;
 }
 
 .icon:hover {
@@ -1472,7 +1508,7 @@ template {
     display: flex;
     max-width: 1400px;
     margin: 0 auto;
-    padding: 17px 10px;
+    padding: 15px 10px;
     flex-direction: column-reverse;
     align-items: center;
   }
@@ -1512,6 +1548,7 @@ template {
   .nav-footer {
     flex-direction: column;
     align-items: center;
+    padding: 0;
   }
   .lml {
     margin-left: 0;
@@ -1555,8 +1592,11 @@ template {
   .imgmaster img {
     width: 339px;
   }
+  .nav-footer {
+    padding: 0;
+  }
 }
-@media (max-width: 420px) {
+@media (max-width: 460px) {
   .logoimg {
     width: 82px;
   }
@@ -1573,7 +1613,10 @@ template {
     margin-bottom: 16px;
   }
   .form {
-    font-size: 19px;
+    font-size: 16px;
+  }
+  .closs {
+    font-family: "Museo Sans-700";
   }
   .imgmaster img {
     width: 270px;
@@ -1586,11 +1629,20 @@ template {
     margin-bottom: 15px;
   }
   .submit {
-    padding: 0.6rem 1.3rem;
+    padding: 1.1rem 1.3rem;
     margin-left: 1px;
-    font-size: 19px;
+    font-size: 17px;
   }
   .footer__container-up {
     height: 285px;
+  }
+  .nav-footer {
+    padding: 0;
+  }
+  .empty {
+    font-size: 20px;
+    margin: 0;
+    line-height: 25px;
+    font-weight: 700;
   }
 }

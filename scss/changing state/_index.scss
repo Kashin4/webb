@@ -565,7 +565,7 @@
     display: flex;
     max-width: 1400px;
     margin: 0 auto;
-    padding: 17px 10px;
+    padding: 15px 10px;
     flex-direction: column-reverse;
     align-items: center;
   }
@@ -605,6 +605,7 @@
   .nav-footer {
     flex-direction: column;
     align-items: center;
+    padding: 0;
   }
   .lml {
     margin-left: 0;
@@ -651,9 +652,12 @@
   .imgmaster img {
     width: 339px;
   }
+  .nav-footer {
+    padding: 0;
+  }
 }
 // ================================================================
-@media (max-width: 420px) {
+@media (max-width: 460px) {
   .logoimg {
     width: 82px;
   }
@@ -670,24 +674,36 @@
     margin-bottom: 16px;
   }
   .form {
-    font-size: 19px;
-}
-.imgmaster img {
+    font-size: 16px;
+  }
+  .closs {
+    font-family: "Museo Sans-700";
+  }
+  .imgmaster img {
     width: 270px;
-}
-.advant-theme {
+  }
+  .advant-theme {
     width: 75%;
     font-size: 26px;
-}
-.advant-top {
+  }
+  .advant-top {
     margin-bottom: 15px;
-}
-.submit {
-    padding: 0.6rem 1.3rem;
+  }
+  .submit {
+    padding: 1.1rem 1.3rem;
     margin-left: 1px;
-    font-size: 19px;
-}
-.footer__container-up {
+    font-size: 17px;
+  }
+  .footer__container-up {
     height: 285px;
-}
+  }
+  .nav-footer {
+    padding: 0;
+  }
+  .empty {
+    font-size: 20px;
+    margin: 0;
+    line-height: 25px;
+    font-weight: 700;
+  }
 }
